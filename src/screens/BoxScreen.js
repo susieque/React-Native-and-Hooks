@@ -15,26 +15,31 @@ const style = StyleSheet.create({
 	viewStyle: {
 		borderWidth: 3,
 		borderColor: 'black',
-		height: 200,
-		flex: 1,
+		height: 200
+		// alignItems: 'flex-end'
 		// flexDirection: 'row'
 		// justifyContent: 'flex-start'
 	},
 	textOneStyle: {
 		borderWidth: 3,
-		borderColor: 'red',
-		flex: 4
+		borderColor: 'red'
 	},
 	textTwoStyle: {
 		borderWidth: 3,
 		borderColor: 'red',
-		flex: 4
+		// position: 'absolute',
+		fontSize: 18,
+		// left: 10
+		// top: 0,
+		// right: 0,
+		// bottom: 0,
+		// left: 0
+		...StyleSheet.absoluteFillObject
 	},
 
 	textThreeStyle: {
 		borderWidth: 3,
-		borderColor: 'red',
-		flex: 2
+		borderColor: 'red'
 	}
 });
 
